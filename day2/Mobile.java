@@ -1,24 +1,55 @@
-package week1.day2;
+
+package week2.day2;
 
 public class Mobile {
-	String BrandName="sony xperia";
-	Short Weight=170;
-	int noofcameras=03;
-	long buildno=8220585268l;
-	float price=23000.00f;
-	boolean acceptation5g=true;
+	
+	public void chargePort() {
+		System.out.println("chargePort");
+	}
+	public void fingerPrint() {
+		System.out.println("fingerPrint");
+		
+	}
+	public void headJack() {
+		System.out.println("headJack");
+	}
+	public void volumeButton() {
+		System.out.println("volumeButton");
+	}
+	public void frontCam() {
+		System.out.println("frontCam");
+	}
+	public void powerButton() {
+		System.out.println("powerButton");
+	}
+	public void speaker() {
+		System.out.println("speaker");
+	}
+	public void ejector() {
+		System.out.println("ejector");
+	}
+	public void simSlot() {
+		System.out.println("simSlot");
+	}
 	
 	public static void main(String[] args) {
 		
-		Mobile sonyXperia=new Mobile();
-		
-		System.out.println(sonyXperia.BrandName);
-		System.out.println("Weight"+sonyXperia.Weight);
-		System.out.println("noofcameras"+sonyXperia.noofcameras);
-		System.out.println("buildno"+sonyXperia.buildno);
-		System.out.println("price"+sonyXperia.price);
-		System.out.println("acceptation5g"+sonyXperia.acceptation5g);
+		Mobile spec= new Mobile ();
+		spec.chargePort();
+		spec.ejector();
+		spec.fingerPrint();
+		spec.frontCam();
+		spec.headJack();
+		spec.powerButton();
+		spec.simSlot();
+		spec.speaker();
+		spec.volumeButton();
 	}
 	
+
 	
-}
+
+	}
+	
+
+
